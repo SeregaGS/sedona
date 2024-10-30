@@ -228,7 +228,7 @@ input[type="number"]::-webkit-inner-spin-button {
   padding: 51px 0 82px 0;
   margin-bottom: 63px;
   background-color: rgba(131, 179, 211, 1);
-  background-image: url("/img/bg/index-background.jpg");
+  background-image: url("../img/bg/index-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
@@ -240,7 +240,7 @@ input[type="number"]::-webkit-inner-spin-button {
   left: 0;
   right: 0;
   height: 57px;
-  background-image: url("/img/bg/index-bg-bf.svg");
+  background-image: url("../img/bg/index-bg-bf.svg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -363,13 +363,13 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: #83b3d31f;
 }
 .advantages-list-item--house {
-  background-image: url(../img/content/list/icon/icon-1.svg);
+  background-image: url("../img/content/list/icon/icon-1.svg");
 }
 .advantages-list-item--food {
-  background-image: url(../img/content/list/icon/icon-2.svg);
+  background-image: url("../img/content/list/icon/icon-2.svg");
 }
 .advantages-list-item--souvenirs {
-  background-image: url(../img/content/list/icon/icon-3.svg);
+  background-image: url("../img/content/list/icon/icon-3.svg");
 }
 
 /* *INDEX* SEARCH HOTEL */
@@ -410,7 +410,7 @@ input[type="number"]::-webkit-inner-spin-button {
   padding: 93px 0 95px 0px;
   text-align: center;
   background-color: rgba(131, 179, 211, 1);
-  background-image: url("/img/bg/background.jpg");
+  background-image: url("../img/bg/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -567,7 +567,7 @@ input[type="number"]::-webkit-inner-spin-button {
   padding: 42px 71px 84px;
   color: #fff;
   background-color: rgba(131, 179, 211, 1);
-  background-image: url("/img/bg/catalog-background.jpg");
+  background-image: url("../img/bg/catalog-background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -659,9 +659,7 @@ input[type="number"]::-webkit-inner-spin-button {
 .hotel-filter-label:not(:active):hover input[type="radio"] ~ .hotel-filter-btn {
   background-color: rgba(255, 255, 255, 1);
 }
-.hotel-filter-label:not(:active):focus-within
-  input[type="radio"]
-  ~ .hotel-filter-btn {
+.hotel-filter-label:not(:active):focus-within input[type="radio"] ~ .hotel-filter-btn {
   background-color: rgba(255, 255, 255, 1);
 }
 .hotel-filter-label:active + input[type="radio"] ~ .hotel-filter-btn {
@@ -680,7 +678,7 @@ input[type="number"]::-webkit-inner-spin-button {
   background-color: #fff;
 }
 .hotel-filter-label input[type="checkbox"]:checked ~ .hotel-filter-btn {
-  background-image: url(../img/content/icon/tick.svg);
+  background-image: url("../img/content/icon/tick.svg");
   background-repeat: no-repeat;
   background-position: 60% 50%;
 }
@@ -910,7 +908,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .select-button::after {
   content: "";
-  background-image: url(../img/content/icon/dropdown.svg);
+  background-image: url("../img/content/icon/dropdown.svg");
   background-repeat: no-repeat;
   background-position: 48% 55%;
 }
@@ -950,13 +948,13 @@ input[type="number"]::-webkit-inner-spin-button {
   border-color: rgba(0, 0, 0, 1);
 }
 .catalog-mode-tile {
-  background-image: url(../img/content/icon/us/mode-tile.svg);
+  background-image: url("../img/content/icon/us/mode-tile.svg");
 }
 .catalog-mode-slideshow {
-  background-image: url(../img/content/icon/us/mode-slideshow.svg);
+  background-image: url("../img/content/icon/us/mode-slideshow.svg");
 }
 .catalog-mode-list {
-  background-image: url(../img/content/icon/us/mode-list.svg);
+  background-image: url("../img/content/icon/us/mode-list.svg");
 }
 
 /* *CATALOG* CATALOG LIST */
@@ -1211,7 +1209,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 .count-filter-list-item::after {
   content: "";
-  background-image: url(../img/content/icon/dropdown.svg);
+  background-image: url("../img/content/icon/dropdown.svg");
   background-repeat: no-repeat;
   background-position: 50% 50%;
 }
@@ -1306,7 +1304,7 @@ input[type="number"]::-webkit-inner-spin-button {
   width: 20px;
   height: 20px;
   display: inline-block;
-  background-image: url(../img/content/icon/cross.svg);
+  background-image: url("../img/content/icon/cross.svg");
   background-repeat: no-repeat;
   background-position: 50%;
 }
@@ -1349,7 +1347,7 @@ input[type="number"]::-webkit-inner-spin-button {
   line-height: 50px;
   font-weight: 700;
   background-color: rgba(242, 242, 242, 1);
-  background-image: url(../img/content/icon/date.svg);
+  background-image: url("../img/content/icon/date.svg");
   background-repeat: no-repeat;
   background-position: right 16px top 50%;
 }
@@ -1456,10 +1454,10 @@ input[type="number"]::-webkit-inner-spin-button {
   grid-column: 3 / -1;
 }
 .btn-minus.quantity-people-btn::after {
-  background-image: url(../img/content/icon/minus.svg);
+  background-image: url("../img/content/icon/minus.svg");
 }
 .btn-plus.quantity-people-btn::after {
-  background-image: url(../img/content/icon/plus.svg);
+  background-image: url("../img/content/icon/plus.svg");
 }
 .popup-modal-form-head-wrap {
   display: flex;
@@ -1479,7 +1477,7 @@ input[type="number"]::-webkit-inner-spin-button {
   margin-top: 6px;
   border-radius: 50%;
   background-color: rgba(131, 179, 211, 1);
-  background-image: url(../img/content/icon/info.svg);
+  background-image: url("../img/content/icon/info.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1505,7 +1503,7 @@ input[type="number"]::-webkit-inner-spin-button {
   content: "";
   width: 19px;
   height: 9px;
-  background-image: url(../img/content/icon/triangle.svg);
+  background-image: url("../img/content/icon/triangle.svg");
 }
 .popup-modal-form-info:hover {
   background-color: rgba(104, 162, 202, 1);
